@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran Vaksinasi Covid</title>
+    <link rel="stylesheet" type="text/css" href="1.css">    
+</head>
+<body>
+    <div class="wrap">
+    <div class="container">
+    <center>
+    <h1> Form Pendaftaran untuk Masyarakat Umum </h1>
+    <hr>
+    <form action="detail_informasi.html" method="get">
+        <table border="0" align="center">
+            <tr>
+                <td>NIK Anda </td>
+                <td>:</td>
+                <td><input type="text" name="NIK"></td>
+            </tr>
+            <tr>   
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="Nama Lengkap" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td><input type="date" name="tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin </td>
+                <td>:</td>
+                <td><input type="radio" name="jk" value="Laki-Laki">Laki-Laki
+                    <input type="radio" name="jk" value="Perempuan">Perempuan
+                </td>
+            </tr>
+            <tr>   
+                <td>Alamat</td>
+                <td>:</td>
+                <td><input type="alamat" name="alamat"></td>
+            </tr>
+            <tr>
+                <td>Pilih Faskes</td>
+                <td>:</td>
+                <td>
+                    <select name="faskes">
+                        <option>---Pilih---</option>
+                        <option>Klinik Flora</option>
+                        <option>Klinik Kimia Farma</option>
+                        <option>Klinik Rafassya</option>
+                        <option>Puskesmas Antasari</option>
+                        <option>Puskesmas Karang Anyar</option>
+                        <option>Puskesmas Kedaton</option>
+                        <option>Puskesmas Pahoman</option>
+                        <option>Puskesmas Way Halim</option>
+                        <option>Puskesmas Way Kandis</option>
+                        <option>RS Abdul Muluk</option> 
+                        <option>RS Advent</option>
+                        <option>RS Airan</option>
+                        <option>RS Imanuel</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="email" name="email"></td>                
+            </tr>
+            <tr>
+                <td>NO HP</td>
+                <td>:</td>
+                <td><input type="email" name="no_hp"></td>                
+            </tr>            
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit" name="Simpan">Simpan</button>
+                    <button type="reset" name="cancel">Cancel</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+    </center>
+    </div>
+    </div>
+</body>
+</html>

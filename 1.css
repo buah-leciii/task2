@@ -1,0 +1,33 @@
+body{
+    background-size: cover;
+}
+.wrap{
+    width: 40%;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    font-family: roboto;
+    background-color: rgba(32, 36, 39, 0.685);
+}
+.container{
+    padding: 5px;
+}
+table{
+    margin: auto;
+}
+table td{
+    padding: 5px;
+}
+button{
+    width: 50px;
+    font-family: roboto;
+    height: 30px;
+    background-color: white (74, 255, 3, 0.603);
+    background-position: 7px;
+}
+a{
+    background-color: white(0, 255, 21, 0.548);
+    background-position: 7px;
+    width: 5px;
+    height: 30px; 
+}
